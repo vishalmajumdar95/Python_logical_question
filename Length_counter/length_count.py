@@ -65,20 +65,20 @@ while l[c:]:
 print ("length of the list is ",c,)
 ###################################
 
-# n=[50, 40, 23, 70, 56, 12, 5, 10, 7] 
-# c=0
-# for i in n:
-#     if i>20 and i<40:
-#         c+=1 
-#         print(i)
-# print(c)
+n=[50, 40, 23, 70, 56, 12, 5, 10, 7] 
+c=0
+for i in n:
+    if i>20 and i<40:
+        c+=1 
+        print(i)
+print(c)
 
 ######################
-# a=input()
-# a=list(a)
-# count=0
-# l=0
-# while a:
-# 	a.remove(a[l])
-# 	count+=1
-# print(count)
+a=input()
+a=list(a)
+count=0
+l=0
+while a:
+	a.remove(a[l])
+	count+=1
+print(count)
